@@ -20,7 +20,6 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       flexGrow: 1,
-      padding: "100px 30px 0 50px"
         },
     paper: {
       padding: theme.spacing(0),

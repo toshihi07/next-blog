@@ -1,7 +1,9 @@
 export type BlogData = {
-  img?: string;
-  title?: string;
-  author: string;
+  id: String;
+  title: String;
+  date: Date;
+  thumnail: String | undefined,
+  contentHtml: String
 };
 
 export type Props = {
