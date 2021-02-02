@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../layouts/layout";
-import { getAllPostIds, getPostData } from "../../lib/posts";
+import { getAllPostIds, getPostData } from "../../lib/ssg/posts";
 import Head from "next/head";
 import Date from "../../components/date";
 import utileStyles from "../../styles/utils.module.scss";

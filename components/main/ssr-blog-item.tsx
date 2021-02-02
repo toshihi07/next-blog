@@ -4,7 +4,7 @@ import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import Link from "next/link";
 import utileStyles from "../../styles/utils.module.scss";
-import Date from "../../components/date";
+import Date from "../date";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
 import CardActions from "@material-ui/core/CardActions";
@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-export default function BlogItem({ blogData }) {
+export default function SsrBlogItem({ blogData }) {
   const classes = useStyles();
   console.log(blogData.thumnail);
 
